@@ -1,24 +1,32 @@
-# Day 01 — Project Definition & Cloud Fundamentals
+# Day 01 — プロジェクト定義・クラウド基礎学習
 
-## Objectives
-- Understand the client's business and infrastructure challenges.
-- Learn fundamental cloud computing concepts.
-- Prepare initial client discovery questions.
+## 本日の目標
 
-## Activities Completed
-- 
+- プロジェクトの目的と分析範囲を明確にする
+- クライアントの経営目標と課題を理解する
+- クラウドコンピューティングの基礎知識を習得する
+- 初回ヒアリングに向けた質問を準備する
 
-## Key Learnings
-- 
+## 実施内容
 
-## Consulting Insights
-- 
+-
 
-## Questions & Uncertainties
-- 
+## 学んだこと
 
-## Decisions Made
-- 
+-
 
-## Next Steps
-- 
+## コンサルティングの観点からの気づき
+
+-
+
+## 疑問点・追加調査が必要な事項
+
+-
+
+## 意思決定とその理由
+
+-
+
+## 次回のタスク
+
+-

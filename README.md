@@ -1,130 +1,75 @@
 # Cloud Migration & IT Cost Optimization
+企業のクラウド移行戦略とITコスト最適化
 
-An independent IT consulting case study focused on evaluating cloud migration strategies, infrastructure modernization, and long-term IT cost optimization.
+**プロジェクト状況：進行中**
 
-**Project Status:** In Progress
+## 1. プロジェクト概要
 
-## 1. Project Overview
+本プロジェクトは、オンプレミス環境からクラウドへの移行を検討している架空の中規模IT企業を対象とした、個人のITコンサルティングケーススタディである。
 
-This project simulates a technology consulting engagement for a fictional mid-sized software company considering a transition from on-premises infrastructure to cloud computing.
+既存のITインフラを分析し、コスト、セキュリティ、可用性、拡張性、運用負担などの観点から複数のインフラ構成を比較・評価する。
 
-The objective is to evaluate different infrastructure options and recommend a solution that balances business requirements, financial considerations, security, reliability, and scalability.
+クラウド移行を前提とするのではなく、企業の経営目標や業務要件に基づき、最適なITインフラ構成と実行計画を提案することを目的とする。
 
-Rather than assuming that cloud migration is always beneficial, this project takes a structured, evidence-based approach to technology decision-making.
+## 2. プロジェクトの目的
 
-## 2. Project Objectives
+- クラウドコンピューティングと企業ITインフラに関する実践的な知識の習得
+- 既存インフラの現状分析と課題の特定
+- オンプレミス、AWS、Microsoft Azureの比較・評価
+- 5年間の総保有コスト（TCO）の分析
+- セキュリティ、可用性、拡張性、運用負担の評価
+- 現実的なクラウド移行戦略と導入ロードマップの策定
+- ITコンサルティングに必要な分析力・課題解決力・提案力の向上
 
-- Develop practical knowledge of cloud computing and enterprise IT infrastructure.
-- Analyze existing infrastructure and identify business and technical challenges.
-- Compare on-premises, AWS, and Microsoft Azure solutions.
-- Evaluate the five-year Total Cost of Ownership (TCO).
-- Assess security, availability, scalability, and operational complexity.
-- Develop a realistic cloud migration strategy and implementation roadmap.
-- Strengthen technology consulting, business analysis, and problem-solving skills.
+## 3. 想定クライアント
 
-## 3. Client Background
+**Nexus Solutions Inc.（架空企業）**
 
-**Nexus Solutions Inc. (Fictional Company)**
-
-| Attribute | Description |
+| 項目 | 内容 |
 |---|---|
-| Industry | B2B Software |
-| Location | Japan |
-| Employees | 150 |
-| IT Infrastructure Team | 3 |
-| Corporate Clients | 200 |
-| Service Users | Approximately 5,000 |
-| Current Infrastructure | On-Premises |
-| Server Age | 5 Years |
-| Business Goal | Double the number of corporate clients within 3 years |
+| 業種 | B2Bソフトウェア |
+| 所在地 | 日本 |
+| 従業員数 | 150人 |
+| ITインフラ担当者 | 3人 |
+| 法人顧客数 | 200社 |
+| サービス利用者数 | 約5,000人 |
+| 現在のインフラ | オンプレミス |
+| サーバー使用年数 | 5年 |
+| 経営目標 | 3年以内に法人顧客数を2倍にする |
 
-### Business Challenges
+### 経営・IT課題
 
-- Increasing infrastructure maintenance costs
-- Growing operational workload
-- Limited infrastructure scalability
-- Aging physical servers
-- Uncertainty regarding cloud migration costs and risks
+- インフラ保守費用の増加
+- IT管理担当者の運用負担の増加
+- 物理サーバーの老朽化
+- 将来的な事業拡大への対応
+- クラウド移行に伴う費用やリスクの不透明さ
 
-## 4. Scope of Analysis
+## 4. 分析対象
 
-The following infrastructure options will be evaluated:
+以下のインフラ構成を比較・評価する。
 
-- On-premises infrastructure
-- Amazon Web Services (AWS)
+- オンプレミス環境
+- Amazon Web Services（AWS）
 - Microsoft Azure
-- Hybrid cloud infrastructure, if justified by business requirements
+- ハイブリッドクラウド（必要に応じて）
 
-### Evaluation Criteria
+### 評価基準
 
-| Category | Evaluation Focus |
+| 評価項目 | 評価内容 |
 |---|---|
-| Cost | Initial investment, operating expenses, and five-year TCO |
-| Security | Access control, data protection, and security responsibilities |
-| Availability | Redundancy, disaster recovery, and service continuity |
-| Scalability | Ability to support future business growth |
-| Maintainability | Operational workload and infrastructure management |
-| Migration | Implementation complexity, downtime, and migration risks |
+| コスト | 初期投資、運用費用、5年間のTCO |
+| セキュリティ | アクセス管理、データ保護、責任分界 |
+| 可用性 | 冗長化、障害復旧、サービス継続性 |
+| 拡張性 | 将来的な事業拡大への対応能力 |
+| 保守性 | 運用負担、インフラ管理の複雑さ |
+| 移行 | 移行難易度、停止時間、移行リスク |
 
-## 5. Project Roadmap
+## 5. プロジェクト計画
 
-| Phase | Activities | Status |
+| フェーズ | 内容 | 状況 |
 |---|---|---|
-| Week 1 | Cloud Fundamentals & Current-State Analysis | In Progress |
-| Week 2 | Cloud Service Research & Architecture Design | Planned |
-| Week 3 | Financial Analysis & Risk Assessment | Planned |
-| Week 4 | Migration Strategy & Final Recommendation | Planned |
-
-## 6. Planned Deliverables
-
-- Client requirements and current-state assessment
-- Current-state (As-Is) architecture diagram
-- Future-state (To-Be) architecture diagrams
-- AWS and Azure service comparison
-- Five-year TCO analysis model
-- Infrastructure evaluation matrix
-- Security and risk assessment
-- Cloud migration roadmap
-- Final consulting proposal
-
-## 7. Tools & Technologies
-
-- Amazon Web Services (AWS)
-- Microsoft Azure
-- AWS Pricing Calculator
-- Azure Pricing Calculator
-- Microsoft Excel
-- Microsoft PowerPoint
-- Draw.io
-- Git & GitHub
-- Markdown
-
-## 8. Repository Structure
-
-```text
-cloud-migration-case-study/
-├── README.md
-├── research/
-├── analysis/
-├── architecture/
-├── financial_model/
-├── proposal/
-└── journal/
-```
-
-The repository will be updated throughout the project as research, analysis, and deliverables are completed.
-
-## 9. Project Principles
-
-- Business requirements before technology selection
-- Evidence-based decision-making
-- Transparent assumptions and cost calculations
-- Vendor-neutral evaluation
-- Security and reliability by design
-- Practical and realistic implementation planning
-
-## 10. Disclaimer
-
-This project is an independent educational case study, not an actual client engagement. Nexus Solutions Inc. and its business conditions are fictional.
-
-Financial estimates and infrastructure recommendations will be based on publicly available information, documented assumptions, and official cloud pricing resources. Projected benefits do not represent actual realized business outcomes.
+| Week 1 | クラウド基礎学習・現状分析 | 進行中 |
+| Week 2 | クラウドサービス調査・構成設計 | 未着手 |
+| Week 3 | コスト分析・リスク評価 | 未着手 |
+| Week 4 |
