@@ -78,3 +78,39 @@
 ### 4.1 ネットワーク情報
 
 | 項目 | 内容 |
+|---|---|
+| インターネット回線 | 1Gbps |
+| 内部ネットワーク | 1Gbps |
+| 平均回線使用率 | 25% |
+| ピーク回線使用率 | 65% |
+| 月間Inbound Traffic | 2TB |
+| 月間Outbound Traffic | 4TB |
+| インターネット回線数 | 1 |
+| Firewall | 1台 |
+| Core Switch | 1台 |
+
+### 4.2 ネットワーク分離
+
+| ネットワーク | 主な用途 |
+|---|---|
+| DMZ | Web Server |
+| Production | Application・Database |
+| Management | 監視・バックアップ・管理 |
+| Office | 社内PC・社内システム |
+
+### 4.3 セキュリティ対策
+
+- VLANによるネットワーク分離
+- Firewallによる通信制限
+- HTTPSによる通信の暗号化
+- VPNによる管理者アクセス
+- アクセスログの記録
+- Databaseへの直接的なインターネットアクセスを制限
+
+### 4.4 確認済みの課題
+
+- インターネット回線の冗長化なし
+- Firewallの冗長化なし
+- Core Switchの冗長化なし
+- 過去にFirewall障害による90分間のサービス停止が発生
+- 単一拠点への依存
